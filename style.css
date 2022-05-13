@@ -36,8 +36,9 @@ a, a:visited, a:hover, a:active {
 }
 
 .intro img {
-    height: 250px;
-    width: 450px;
+    display: flex;
+    max-height: 250px;
+    max-width: 500px;
 }
 
 .content {
@@ -57,7 +58,7 @@ a, a:visited, a:hover, a:active {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 450px;
     gap: 0px;
 }
 
@@ -72,6 +73,10 @@ a, a:visited, a:hover, a:active {
 .intro-text p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.information {
+    display: flex;
 }
 
 .footer {
